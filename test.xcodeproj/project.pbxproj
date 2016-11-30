@@ -15,6 +15,7 @@
 		93027AC01DEEB2C2004B01E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93027ABE1DEEB2C2004B01E9 /* LaunchScreen.storyboard */; };
 		93027ACB1DEEB2C2004B01E9 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93027ACA1DEEB2C2004B01E9 /* testTests.m */; };
 		93027AD61DEEB2C3004B01E9 /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93027AD51DEEB2C3004B01E9 /* testUITests.m */; };
+		93027AE51DEEB337004B01E9 /* DWS.m in Sources */ = {isa = PBXBuildFile; fileRef = 93027AE41DEEB337004B01E9 /* DWS.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		93027AD11DEEB2C3004B01E9 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93027AD51DEEB2C3004B01E9 /* testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITests.m; sourceTree = "<group>"; };
 		93027AD71DEEB2C3004B01E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93027AE31DEEB337004B01E9 /* DWS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWS.h; sourceTree = "<group>"; };
+		93027AE41DEEB337004B01E9 /* DWS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWS.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				93027ABE1DEEB2C2004B01E9 /* LaunchScreen.storyboard */,
 				93027AC11DEEB2C2004B01E9 /* Info.plist */,
 				93027AB01DEEB2C2004B01E9 /* Supporting Files */,
+				93027AE31DEEB337004B01E9 /* DWS.h */,
+				93027AE41DEEB337004B01E9 /* DWS.m */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 			files = (
 				93027AB81DEEB2C2004B01E9 /* ViewController.m in Sources */,
 				93027AB51DEEB2C2004B01E9 /* AppDelegate.m in Sources */,
+				93027AE51DEEB337004B01E9 /* DWS.m in Sources */,
 				93027AB21DEEB2C2004B01E9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
